@@ -1,0 +1,7 @@
+assemble:
+    - from: build/static
+      into: static
+liferay-fds-before-comma-renderer:
+    name: Liferay FDS Cell Renderer - Before First Comma
+    type: fdsCellRenderer
+    url: index.*.js
